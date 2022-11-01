@@ -74,20 +74,62 @@ main{
 .hoeWerktHet h2{
     color: #F86C24;
     font-size: 2rem;
+    margin: 0;
     margin-bottom: 0.5vh;
+}
+
+.hoeWerktHet p{
+    margin-bottom: 3vh;
+}
+
+.pijlersAlles{
+    width: 75vw;
+}
+.pijlersAlles h2{
+    color: #F86C24;
+    font-size: 2rem;
+    width: 75vw;
+}
+
+.pijlers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    background-color: #333467;
+    margin: 3vh 0;
+    color: #ffff;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+}
+
+.pijlers h3{
+    font-size: 1.5rem;
+}
+
+.pijlers p{
+    font-size: 1.1rem;
+}
+
+.pijlers1Logo{
+    width: 20vw;
 }
 
 .menu{
     position: sticky;
     bottom: 0;
+    display: flex;
+    justify-content: center;
 }
 
 #menuButton{
     color: #ffff;
     font-size: 1.2rem;
     background-color: #F86C24;
-    padding: 6vw;
-    border-radius: 0 1rem 2rem 0;
+    padding: 3vw 5vw;
+    width: 30vw;
+    border-radius: 1.5rem 1.5rem 0 0;
     border: none;
 }
 
