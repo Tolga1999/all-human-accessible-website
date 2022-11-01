@@ -2,13 +2,15 @@
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+Buurtcampus Oost Accessibility. In deze leertaak ga ik delen van mijn website acccesible maken voor elke user. Ik zal verder werken aan de volgende user story:
+
+"Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen."
 
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
   * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
@@ -21,9 +23,3 @@
 
 
 ## Bronnen
-
-## Licentie
-
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
-
-This work is licensed under [GNU GPLv3](./LICENSE).
