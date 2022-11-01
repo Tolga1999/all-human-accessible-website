@@ -43,8 +43,9 @@ input {
 input {
     border: solid 3px #ccc;
     height: 2.5vh;
-    transition: ease 0.5s;
+    transition: ease 0.5s 0.1s;
     width: 40%;
+    font-size: 1rem;
 }
 
 input:focus {
@@ -155,20 +156,6 @@ input:focus {
     color: #F86C24;
     font-size: 2rem;
     margin-bottom: 0.5vh;
-}
-
-.googleMapsContent {
-    margin-top: 2vh;
-    color: #F86C24;
-}
-
-.googleMapsContent p {
-    font-size: 1.5rem;
-}
-
-.googleMapsFoto {
-    margin-top: 1vh;
-    width: 90vw;
 }
 
 /* DONEER PAGINA */
