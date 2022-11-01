@@ -1,8 +1,8 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# Buurtcampus Oost Accessibility
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-Buurtcampus Oost Accessibility. In deze leertaak ga ik delen van mijn website acccesible maken voor elke user. Ik zal verder werken aan de volgende user story:
+In deze leertaak ga ik delen van mijn website acccesible maken voor elke user. Ik zal verder werken aan de volgende user story:
 
 "Als buurtbewoner van Amsterdam Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje om te ruilen."
 
