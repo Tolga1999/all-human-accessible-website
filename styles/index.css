@@ -4,6 +4,12 @@
     /* box-sizing: border-box */
 }
 
+/* font toegevoegd van buurtcampus */
+@font-face {
+    font-family: 'buurtcampus-bold';
+    src: url('/fonts/BuurtCampusArial-Bold.ttf');
+}
+
 body{
     background-color: #F3F0EE;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,12 +17,30 @@ body{
 
 header{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    margin-bottom: 2vh;
+}
+
+header a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.indexTitel{
+    font-family: 'buurtcampus-bold', sans-serif;
+    width: 50vw;
+    color: #333467;
+    font-size: 2.5rem;
+    margin-top: 3vh;
+    align-self: flex-end;
+    text-align: center;
 }
 
 .logo{
     margin-top: 3vh;
-    width: 75vw;
+    width: 15vw;
 }
 
 main{
@@ -24,14 +48,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.indexTitel{
-    width: 80vw;
-    color: #333467;
-    font-size: 2.1rem;
-    margin-bottom: 2vh;
-    margin-top: 3vh;
 }
 
 .plant{
