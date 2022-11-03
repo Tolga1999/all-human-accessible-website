@@ -53,17 +53,17 @@ function kiezenPlantje() {
     })
 }
 
-function gekozenPlantje(){
+function gekozenPlantje() {
     overlayPlant.classList.remove('overlayOn')
     plantInput.forEach(element => {
         element.style.opacity = "1"
     })
     body.style.overflow = 'scroll'
     let kiesPlant2 = document.querySelector('.kiesPlant2')
-    if(kiesPlant2.src == 'http://127.0.0.1:5500/assets/plant4.jpg'){
+    if (kiesPlant2.src == 'http://127.0.0.1:5500/assets/plant4.jpg') {
         kiesPlant2.src = '/assets/plant.jpg'
-    }else
-    kiesPlant2.src = '/assets/plant4.jpg'
+    } else
+        kiesPlant2.src = '/assets/plant4.jpg'
 }
 
 // doneer pagina
@@ -115,11 +115,50 @@ function fillStars(star) {
     }
 }
 
-
 function normallStars() {
     star1.style.opacity = '0.5'
     star2.style.opacity = '0.5'
     star3.style.opacity = '0.5'
     star4.style.opacity = '0.5'
     star5.style.opacity = '0.5'
+}
+
+function veranderContrast() {
+    let headings = document.querySelectorAll('h1, h2')
+    let pijlers = document.querySelectorAll('.pijlers')
+    let buttons = document.querySelectorAll('.ruilenDoneren')
+
+    // background van body
+    document.body.style.background = "#000000"
+
+    // uitleg text
+    let uitleg = document.querySelector('.ruilenDonerenText')
+    uitleg.style.background = "#000000"
+    uitleg.style.color = "#AAC789"
+    uitleg.style.border = "2px solid #AAC789"
+
+    // menu button
+    let menu = document.querySelector('#menuButton')
+    menu.style.background = "#AAC789"
+
+    // contrast button
+    let contrastImage = document.querySelector('.contrastImage')
+    contrastImage.src = "/assets/contrast1.png"
+
+    for (let i = 0; i < headings.length; i++) {
+        // headings
+        headings[i].style.color = "#AAC789"
+    }
+
+    for (let i = 0; i < pijlers.length; i++) {
+        // pijlers
+        pijlers[i].style.background = "#000000"
+        pijlers[i].style.border = "2px solid #AAC789"
+        pijlers[i].style.color = "#AAC789"
+    }
+
+    for (let i = 0; i < buttons.length; i++) {
+        // buttons
+        buttons[i].style.background = "#AAC789"
+    }
 }

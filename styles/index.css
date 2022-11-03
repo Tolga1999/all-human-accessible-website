@@ -193,6 +193,22 @@ main{
 }
 /* ------------ */
 
+/* CONTRAST BUTTON */
+.contrastDiv{
+    position: fixed;
+}
+
+.contrastButton{
+    border: none;
+    width: 0;
+}
+
+.contrastButton img{
+    width: 12.5vw;
+    margin: 0.25em;
+}
+/* ------------ */
+
 /* MEDIA QUIRIES VOOR DESKTOP */
 @media screen and (min-width: 768px) {
     /* index.html */
