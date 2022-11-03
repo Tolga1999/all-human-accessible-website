@@ -141,6 +141,10 @@ function veranderContrast() {
     let menu = document.querySelector('#menuButton')
     menu.style.background = "#AAC789"
 
+    // overay background
+    let overlayBackground = document.querySelector('.overlay')
+    overlayBackground.style.background = "#000000E5"
+
     // contrast button
     let contrastImage = document.querySelector('.contrastImage')
     contrastImage.src = "/assets/contrast1.png"

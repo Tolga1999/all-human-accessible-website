@@ -28,7 +28,7 @@ main {
     justify-content: space-evenly;
     height: 60vh;
     width: 87vw;
-    border: 3px solid #B1D338;
+    border: 3px solid #38853C;
     border-radius: 0.5rem;
     padding: 3vh 0;
 }
@@ -42,10 +42,6 @@ main {
 
 .donateLogo {
     width: 80%;
-}
-
-.ruilenDoneren {
-    margin: 3vh 0;
 }
 
 .review {
@@ -69,7 +65,7 @@ main {
 
 .starIcon {
     width: 10vw;
-    color: #F86C24;
+    color: #333467;
     opacity: 0.5;
 }
 
@@ -88,7 +84,7 @@ main {
     /* inline block needed because its not a block element */
     margin-top: 0.8vh;
     font-weight: bold;
-    color: #F86C24;
+    color: #333467;
 }
 
 .googleMapsContent{
@@ -108,7 +104,7 @@ main {
 }
 
 .informatieText h1 {
-    color: #F86C24;
+    color: #333467;
     font-size: 1.5rem;
     margin-bottom: 1vh;
 }
@@ -125,7 +121,7 @@ main {
 
 /* TRADED */
 .timerHeader {
-    background-color: #F86C24;
+    background-color: #333467;
 }
 
 .informatieText {
