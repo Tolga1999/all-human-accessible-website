@@ -142,13 +142,17 @@ function veranderContrast() {
     menu.style.background = "#AAC789"
     menu.style.color = "#000000"
 
-    // overay background
+    // overlay background
     let overlayBackground = document.querySelector('.overlay')
     overlayBackground.style.background = "#000000E5"
 
     // contrast button
     let contrastImage = document.querySelector('.contrastImage')
     contrastImage.src = "/assets/contrast1.png"
+
+    // hoe werkt het border top
+    let borderTop = document.querySelector('.hoeWerktHet')
+    borderTop.classList.add("hoeWerktHetContrast") // dit is een class die toegevoegd wordt aan de class hoeWerktHet, de class bestaat al in css
 
     for (let i = 0; i < headings.length; i++) {
         // headings

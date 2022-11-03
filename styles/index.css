@@ -63,6 +63,12 @@ main{
     margin-bottom: 2vh;
 }
 
+.homeButtons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .ruilenDoneren{
     display: flex;
     align-items: center;
@@ -85,6 +91,11 @@ main{
     margin-top: 3vh;
     border-top: #38853C solid 3px;
     padding-top: 3vh;
+}
+
+/* class wordt toegevoegd aan .hoewerktHet met JS */
+.hoeWerktHetContrast{ 
+    border-top: #AAC789 solid 3px;
 }
 
 .hoeWerktHet h2{

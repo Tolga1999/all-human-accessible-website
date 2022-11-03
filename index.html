@@ -11,7 +11,8 @@
 
 <body>
     <div class="contrastDiv">
-        <button class="contrastButton" onclick="veranderContrast()"><img class="contrastImage" src="/assets/contrast.png" alt="contrast knop"></button>
+        <button class="contrastButton" onclick="veranderContrast()"><img class="contrastImage"
+                src="/assets/contrast.png" alt="contrast knop"></button>
     </div>
     <div class="overlay">
         <div class="buttons">
@@ -21,27 +22,29 @@
             <a class="ruilenDoneren" href="html/donateform.html">Doneren</a>
         </div>
     </div>
-    <header>
+    <header role="banner">
         <a href="index.html">
             <h1 class="indexTitel">Plantswap</h1>
             <img class="logo" src="/assets/plantLogo.png" alt="plant logo">
         </a>
     </header>
-    <main>
-        <div>
+    <main role="main">
+        <section role="opties">
             <img class="plant" src="assets/plant.jpg" alt="plant foto homepagina">
             <h2 class="subtext">Hoe kunnen we je helpen?</h2>
-        </div>
-        <div class="homeButtons">
-            <a class="ruilenDoneren" href="html/form.html">Ruilen</a>
-            <a class="ruilenDoneren" href="html/donateform.html">Doneren</a>
-        </div>
+
+            <div class="homeButtons">
+                <a class="ruilenDoneren" href="html/form.html">Ruilen</a>
+                <a class="ruilenDoneren" href="html/donateform.html">Doneren</a>
+            </div>
+        </section>
         <section class="hoeWerktHet">
             <h2>Hoe werkt het?</h2>
             <div class="ruilenDonerenText">
                 <h3>Ruilen of Doneren</h3>
                 <p> Binnen Plantswap kan je kiezen voor de opties ruilen of doneren. Met de optie ruilen kies je
-                    uit onze beschikbare stekjes binnen de campus, geef je heel simpel je informatie en kan direct je nieuwe stekje
+                    uit onze beschikbare stekjes binnen de campus, geef je heel simpel je informatie en kan direct je
+                    nieuwe stekje
                     ophalen! Je kan ook altijd een stekje of plantje doneren voor buurtbewoners.
                 </p>
                 <img class="pijlers1Logo" src="/assets/donate.png" alt="donate icon">
