@@ -73,7 +73,7 @@ main{
     width: 50vw;
     border: none;
     color: #ffff;
-    background-color: #B1D338;
+    background-color: #38853C;
     border-radius: 0.5rem;
     /* exact values as Figma */
     height: 60px;
@@ -83,7 +83,7 @@ main{
 .hoeWerktHet{
     width: 75vw;
     margin-top: 3vh;
-    border-top: #B1D338 solid 3px;
+    border-top: #38853C solid 3px;
     padding-top: 3vh;
 }
 
