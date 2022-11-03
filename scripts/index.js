@@ -140,6 +140,7 @@ function veranderContrast() {
     // menu button
     let menu = document.querySelector('#menuButton')
     menu.style.background = "#AAC789"
+    menu.style.color = "#000000"
 
     // overay background
     let overlayBackground = document.querySelector('.overlay')
@@ -164,5 +165,7 @@ function veranderContrast() {
     for (let i = 0; i < buttons.length; i++) {
         // buttons
         buttons[i].style.background = "#AAC789"
+        buttons[i].style.color = "#000000"
+
     }
 }

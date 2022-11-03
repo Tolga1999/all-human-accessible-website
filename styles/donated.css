@@ -109,19 +109,30 @@ main {
     margin-bottom: 1vh;
 }
 
+.meerInfoCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #333467;
+    color: #ffff;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+}
+
 .informatieText p {
     font-size: 1.1rem;
 }
 
 .buurtcampusOostLink {
     text-decoration: none;
-    color: #383868;
+    color: #ffff;
     font-weight: bold;
 }
 
 /* TRADED */
 .timerHeader {
-    background-color: #333467;
+    background-color: #38853C;
 }
 
 .informatieText {
