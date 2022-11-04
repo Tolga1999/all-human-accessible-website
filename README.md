@@ -23,7 +23,11 @@ Het project werkt met required formulieren waarin je gegevens en foto's kan dele
 
 Verder heb je een contrast knop, een ander kleurenpalet en meer content vergeleken sprint 2.
 <!-- Voeg een mooie poster visual toe 📸 -->
-
+<img src="https://user-images.githubusercontent.com/112855878/199976951-c9e07c2d-1df9-416d-aac5-ac404472a4b2.png" width="20.25%"><img src="https://user-images.githubusercontent.com/112855878/199977137-039c9967-b051-47f4-8010-449bca2eef1c.png" width="20.25%"><img src="https://user-images.githubusercontent.com/112855878/199977032-015b3923-f2a0-4eb9-8a5f-17a7b23551eb.png" width="20%">
+<img src="https://user-images.githubusercontent.com/112855878/199977083-425abca5-a975-4311-91ac-34560886b8bd.png" width="19.75%">
+<img src="https://user-images.githubusercontent.com/112855878/199977187-11945520-4251-46a9-b82e-8c9822cb8e90.png" width="20.25%">
+<img src="https://user-images.githubusercontent.com/112855878/199977243-1402fc87-5eb6-412e-b8ac-2533de9d161a.png" width="19.75%">
+<img src="https://user-images.githubusercontent.com/112855878/199977278-720ef843-35aa-48c3-8a1b-9c5c7ff9c19f.png" width="20%">
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 link naar mijn Github pages: https://github.com/Tolga1999/all-human-accessible-website/wiki
