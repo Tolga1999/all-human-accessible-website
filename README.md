@@ -14,12 +14,26 @@ In deze leertaak ga ik delen van mijn website acccesible maken voor elke user. I
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+Het project bestaat uit 5 HTML pagina's: index.html, form.html, traded.html, donateform.html en donated.html. De flow van de pagina's kan op 2 manieren:
+
+1. index.html -> form.html -> traded.html
+2. index.html -> donateform.html -> donated.html
+
+Het project werkt met required formulieren waarin je gegevens en foto's kan delen, verder kan je in form.html ook plantjes/stekjes kiezen van Buurtcampus Oost zelf. Na het proces krijg je in traded.html (ook in donateform.html) een code die je kan inleveren als bewijs bij het ophalen van je plantje.
+
+Verder heb je een contrast knop, een ander kleurenpalet en meer content vergeleken sprint 2.
 <!-- Voeg een mooie poster visual toe 📸 -->
+
+
 <!-- Voeg een link toe naar Github Pages 🌐-->
+link naar mijn Github pages: https://github.com/Tolga1999/all-human-accessible-website/wiki
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-
-
 ## Bronnen
+Voor oplossingen en informatie over HTML, CSS en JS heb ik gebruik gemaakt van de volgende websites:
+- [stackoverflow.com](https://stackoverflow.com/)
+- [w3schools.com](https://www.w3schools.com/)
+- [css-tricks.com](https://css-tricks.com/)
+- [MDN web docs](https://developer.mozilla.org/en-US/).
