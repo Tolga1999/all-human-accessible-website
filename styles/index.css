@@ -220,20 +220,32 @@ main{
 }
 /* ------------ */
 
+/* DESKTOP CONTENT */
+.desktopPlant{
+    display: none;
+}
+
 /* MEDIA QUIRIES VOOR DESKTOP */
 @media screen and (min-width: 768px) {
     /* index.html */
 
+    .contrastButton img{
+        width: 4vw;
+    }
+
     #menuButton{
         width: 10vw;
-        height: 2vh;
-        padding: 3vw;
-        padding-top: 5vh;
+        padding: 2vh;
         font-size: 1.3rem;
     }
 
+    .indexTitel{
+        font-size: 5rem;
+        width: 100%;
+    }
+
     .logo{
-        width: 30vw;
+        width: 5vw;
     }
 
     .plant{
@@ -258,6 +270,60 @@ main{
 
     .ruilenDoneren:hover{
         background-color: #333467;
+    }
+
+    .hoeWerktHet{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        border: none;
+    }
+
+    .desktopPlant{
+        display: inline;
+        width: 25vw;
+    }
+
+    .hoeWerktHet h2{
+        display: none;
+    }
+
+    .ruilenDonerenText{
+        margin: 0 5vw;
+        width: 30vw;
+    }
+
+    .ruilenDonerenText h3{
+        font-size: 2rem;
+    }
+
+    .hoeWerktHet .pijlers1Logo{
+        width: 8vw;
+    }
+
+    .pijlersAlles{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .pijlersAlles h2{
+        margin-top: 5vh;
+        font-size: 3em;
+    }
+
+    .pijlersAllesDesktop{
+        display: flex;
+    }
+
+    .pijlers{
+        width: 50vw;
+        margin-right: 3vw;
+    }
+
+    .pijlers1Logo{
+        width: 7vw;
     }
     /* END index.html */
   }
