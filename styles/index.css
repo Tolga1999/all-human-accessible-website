@@ -53,6 +53,7 @@ main{
 .plant{
     width: 80vw;
     height: 50vh;
+    object-fit: cover;
 }
 
 .subtext{
@@ -221,6 +222,14 @@ main{
 /* ------------ */
 
 /* DESKTOP CONTENT */
+.desktopSubtext{
+    display: none;
+}
+
+.desktopPlantEerste{
+    display: none;
+}
+
 .desktopPlant{
     display: none;
 }
@@ -250,13 +259,40 @@ main{
 
     .plant{
         width: 100%;
-        object-fit: cover;
+    }
+
+    .desktopMainContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .desktopSection{
+        display: flex;
+    }
+
+    .desktopSubtext{
+        display: inline;
+        font-size: 7rem;
+        width: 30vw;
+        color: #333467;
+    }
+
+    .desktopPlanten{
+        width: 35vw;
+    }
+    
+    .desktopPlantEerste{
+        display: inline;
+    }
+
+    .homeButtons{
+        order: 2;
     }
 
     .subtext{
-        margin: 3vh 0 0.5vh 0;
-        text-align: center;
-        font-size: 1.5rem;
+        display: none;
     }
 
     .homeButtons{
