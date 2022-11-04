@@ -34,6 +34,7 @@ link naar mijn Github pages: https://github.com/Tolga1999/all-human-accessible-w
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Ik heb gebruim gemaakt van HTML, CSS en JS. 
 
 ## Bronnen
 Voor oplossingen en informatie over HTML, CSS en JS heb ik gebruik gemaakt van de volgende websites:
