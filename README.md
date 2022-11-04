@@ -36,7 +36,7 @@ link naar mijn Github pages: https://github.com/Tolga1999/all-human-accessible-w
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 Ik heb gebruik gemaakt van HTML, CSS en JS.
 
-De HTML structuur ziet er als volgt uit: body -> overlay -> header -> main -> footer. Binnnen de body is er een overlay gemaakt voor het tonen van het menu. De belangrijkste dingen zijn de overlay (dat standaard uit staat), het formulier en de contrast optie. Ik heb voor de overlay en contrast optie gebruik gemaakt van JS.
+De HTML structuur ziet er als volgt uit: body -> contrastDiv (contrast button) -> overlay -> header -> main -> footer. Binnnen de body is er een overlay gemaakt voor het tonen van het menu. De belangrijkste dingen zijn de overlay (dat standaard uit staat), het formulier en de contrast optie. Ik heb voor de overlay en contrast optie gebruik gemaakt van JS.
 
 ## Bronnen
 Voor oplossingen en informatie over HTML, CSS en JS heb ik gebruik gemaakt van de volgende websites:
